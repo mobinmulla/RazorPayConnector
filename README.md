@@ -20,7 +20,9 @@ Mendix side changes:
 2. In the microflow CMI_RZP_Microflow_Authentication, change your company details in the activity ‘Create Object RazorPayConnector.CMI_RZP_Company’ to add your company name.
 3. Pass correct values in the JavaScript Action "CMI_RZP_JSAction_Prefill_Checkout".
 
-NOTE: While calling the service if you are facing "Rayzorpay not define" and "Rayzorpay is not constructor" error then add script in index.html file in the head tag.
+While calling the service if you are facing "Rayzorpay not define" and "Rayzorpay is not constructor" error then add script in index.html file in the head tag.
       Script:
       <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+      
+NOTE: Refer integration document of RazorPay API Integration. 
       
